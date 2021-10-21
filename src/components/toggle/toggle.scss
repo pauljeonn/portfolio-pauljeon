@@ -1,8 +1,9 @@
 .toggle {
-	width: 50px;
-	height: 25px;
-	border: 1px solid #999;
-	border-radius: 20px;
+	width: 44px;
+	height: 22px;
+	border: 2px solid #dee2e6;
+	box-sizing: border-box;
+	border-radius: 12px;
 	position: fixed;
 	top: 20px;
 	right: 20px;
@@ -10,13 +11,47 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+	background-color: #333;
 
 	.toggle-button {
-		width: 25px;
-		height: 25px;
-		background-color: slategray;
+		width: 22px;
+		height: 22px;
+		background-color: #ced4da;
+		border: 2px solid #dee2e6;
+		box-sizing: border-box;
 		border-radius: 50%;
 		position: absolute;
 		cursor: pointer;
+		left: 22px;
+		animation: moveA 0.2s ease-out forwards;
+
+		@keyframes moveA {
+			0% {
+				transform: translateX(-23px);
+			}
+			100% {
+				transform: translateX(0px);
+			}
+		}
+
+		&.dark {
+			animation: moveBtn 0.2s ease-out forwards;
+
+			@keyframes moveBtn {
+				100% {
+					transform: translateX(-23px);
+				}
+			}
+		}
+	}
+
+	.toggle-icon-sun {
+		color: #fab005;
+		font-size: 18px;
+	}
+
+	.toggle-icon-moon {
+		color: yellow;
+		font-size: 14px;
 	}
 }
