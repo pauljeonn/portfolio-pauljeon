@@ -14,7 +14,7 @@ const About = () => {
 			</div>
 			<div className="about-right">
 				<div className="about-title">
-					<h1>About Me</h1>
+					<h1>ABOUT ME</h1>
 				</div>
 				<div className="about-desc">
 					<p>안녕하세요, 프론트엔드 개발자 전바울 입니다.</p>
