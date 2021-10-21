@@ -1,6 +1,7 @@
 import React from 'react';
 import './portfolio.scss';
 import Product from '../product/Product';
+import { products } from '../../data';
 
 const Portfolio = () => {
 	return (
@@ -11,12 +12,9 @@ const Portfolio = () => {
 					<p className="portfolio-desc"></p>
 				</div>
 				<div className="portfolio-list">
-					<Product />
-					<Product />
-					<Product />
-					<Product />
-					<Product />
-					<Product />
+					{products.map((item) => (
+						<Product key={item.id} img={item.img} link={item.link} />
+					))}
 				</div>
 			</div>
 		</div>
