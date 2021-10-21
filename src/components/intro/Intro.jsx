@@ -1,6 +1,7 @@
 import React from 'react';
 import './intro.scss';
 import Paul from '../../images/memoji.png';
+import { FaChevronDown } from 'react-icons/fa';
 
 const Intro = () => {
 	return (
@@ -11,11 +12,11 @@ const Intro = () => {
 					<h1 className="intro-name">Paul Jeon</h1>
 					<div className="intro-title">
 						<div className="intro-title-wrapper">
-							<div className="intro-title-item">Web Developer</div>
+							<div className="intro-title-item">Frontend Developer</div>
+							<div className="intro-title-item">App Developer</div>
 							<div className="intro-title-item">UI/UX Designer</div>
 							<div className="intro-title-item">Content Creator</div>
 							<div className="intro-title-item">EPL Fan</div>
-							<div className="intro-title-item">Dancer</div>
 						</div>
 					</div>
 					<div className="intro-desc">
@@ -27,6 +28,9 @@ const Intro = () => {
 			<div className="intro-right">
 				<div className="intro-bg"></div>
 				<img className="intro-img" src={Paul} alt="" />
+			</div>
+			<div className="icon-down">
+				<FaChevronDown />
 			</div>
 		</div>
 	);

@@ -85,9 +85,18 @@
 		}
 
 		.intro-img {
-			width: 80%;
+			width: 60%;
 			// border-radius: 50%;
 			z-index: 2;
 		}
+	}
+
+	.icon-down {
+		position: absolute;
+		bottom: 1%;
+		left: 50%;
+		font-size: 30px;
+		color: #51cf66;
+		z-index: 3;
 	}
 }
