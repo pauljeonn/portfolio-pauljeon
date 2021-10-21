@@ -1,6 +1,7 @@
 import React from 'react';
 import './about.scss';
 import Paul from '../../images/namsan.jpeg';
+import { FaChevronDown } from 'react-icons/fa';
 
 const About = () => {
 	return (
@@ -21,6 +22,9 @@ const About = () => {
 					<p>언제나 도전을 마다하지 않겠습니다.</p>
 					<p>멋진 팀플레이어가 되도록 노력하겠습니다.</p>
 				</div>
+			</div>
+			<div className="icon-down">
+				<FaChevronDown />
 			</div>
 		</div>
 	);
