@@ -44,8 +44,17 @@
 				a {
 					text-decoration: none;
 					color: black;
+					z-index: 3;
 				}
 			}
+		}
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.contact {
+		.contact-bg {
+			width: 300%;
 		}
 	}
 }

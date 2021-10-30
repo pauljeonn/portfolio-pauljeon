@@ -24,11 +24,11 @@
 		}
 
 		.about-card-shadow {
-			width: 55%;
-			height: 55%;
+			width: 60%;
+			height: 60%;
 			position: absolute;
 			top: 20%;
-			left: 15%;
+			left: 8%;
 			background-color: darkslateblue;
 			border-radius: 10%;
 		}
@@ -39,13 +39,27 @@
 		display: flex;
 		flex-direction: column;
 	}
+}
 
-	.icon-down {
-		position: absolute;
-		bottom: 1%;
-		left: 50%;
-		font-size: 30px;
-		color: darkslateblue;
-		z-index: 3;
+@media screen and (max-width: 480px) {
+	.about {
+		flex-direction: column;
+		text-align: center;
+
+		.about-left {
+			width: 100%;
+
+			.about-card {
+				height: 30vh;
+			}
+
+			.about-card-shadow {
+				display: none;
+			}
+		}
+
+		.about-right {
+			padding: 30px;
+		}
 	}
 }
