@@ -1,3 +1,5 @@
+@import '../../global.scss';
+
 .contact {
 	height: 100vh;
 	display: flex;
@@ -15,7 +17,7 @@
 
 	.contact-bg {
 		clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-		background-color: skyblue;
+		background-color: $themeColor;
 		width: 200%;
 		height: 70%;
 		position: absolute;

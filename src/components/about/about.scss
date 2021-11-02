@@ -1,3 +1,5 @@
+@import '../../global.scss';
+
 .about {
 	height: 100vh;
 	display: flex;
@@ -29,7 +31,7 @@
 			position: absolute;
 			top: 20%;
 			left: 8%;
-			background-color: darkslateblue;
+			background-color: $themeColor;
 			border-radius: 10%;
 		}
 	}
