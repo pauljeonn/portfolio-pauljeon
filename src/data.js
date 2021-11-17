@@ -14,4 +14,12 @@ export const products = [
 		img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-pauljeon.appspot.com/o/samsung.png?alt=media&token=1637878b-2532-4094-a4ac-4c08d520e541',
 		link: 'https://www.samsung.com/us/',
 	},
+	{
+		id: 4,
+		img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-pauljeon.appspot.com/o/samsung.png?alt=media&token=1637878b-2532-4094-a4ac-4c08d520e541',
+		link: 'https://www.samsung.com/us/',
+		descTitle: 'Weather App',
+		descText:
+			'프레임워크를 사용하지않고 HTML, CSS, 자바스크립트만 사용해서 구현하였습니다.',
+	},
 ];

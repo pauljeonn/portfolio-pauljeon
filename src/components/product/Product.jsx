@@ -1,7 +1,7 @@
 import React from 'react';
 import './product.scss';
 
-const Product = ({ img, link }) => {
+const Product = ({ img, link, descTitle, descText }) => {
 	return (
 		<div className="product">
 			<div className="product-browser">
@@ -15,8 +15,8 @@ const Product = ({ img, link }) => {
 				</a>
 			</div>
 			<div className="product-desc">
-				<div className="product-desc-title">Title</div>
-				<div className="product-desc-text"></div>
+				<div className="product-desc-title">{descTitle}</div>
+				<div className="product-desc-text">{descText}</div>
 			</div>
 		</div>
 	);

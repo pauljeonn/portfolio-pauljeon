@@ -13,7 +13,13 @@ const Portfolio = () => {
 				</div>
 				<div className="portfolio-list">
 					{products.map((item) => (
-						<Product key={item.id} img={item.img} link={item.link} />
+						<Product
+							key={item.id}
+							img={item.img}
+							link={item.link}
+							descTitle={item.descTitle}
+							descText={item.descText}
+						/>
 					))}
 				</div>
 			</div>
