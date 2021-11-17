@@ -1,0 +1,47 @@
+@import '../../global.scss';
+
+.footer {
+	width: 100%;
+	height: 20%;
+	background-color: $themeColor;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5% 0;
+	margin-top: 5%;
+
+	.footer-info {
+		font-size: 20px;
+		font-weight: 300;
+		color: black;
+
+		.footer-item {
+			display: flex;
+			align-items: center;
+			margin: 1%;
+
+			.footer-icon {
+				margin-right: 10px;
+				margin-top: 5px;
+			}
+
+			a {
+				text-decoration: none;
+				color: black;
+				z-index: 3;
+
+				&:hover {
+					color: white;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.footer {
+		.footer-bg {
+			width: 300%;
+		}
+	}
+}

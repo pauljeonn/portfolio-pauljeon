@@ -32,20 +32,14 @@
 
 				.intro-title-wrapper {
 					height: 100%;
-					animation: move 10s ease-in-out infinite alternate;
+					animation: move 5s ease-in-out infinite alternate;
 
 					@keyframes move {
-						25% {
+						50% {
 							transform: translateY(-50px);
 						}
-						50% {
-							transform: translateY(-100px);
-						}
-						75% {
-							transform: translateY(-150px);
-						}
 						100% {
-							transform: translateY(-200px);
+							transform: translateY(-100px);
 						}
 					}
 
@@ -92,13 +86,26 @@
 		}
 	}
 
-	.icon-down {
+	.scroll-down {
 		position: absolute;
-		bottom: 1%;
-		left: 50%;
-		font-size: 30px;
+		bottom: 3%;
+		left: 46%;
+		font-size: 14px;
+		font-weight: 500;
 		color: $themeColor;
+		border: 2px solid $themeColor;
+		border-radius: 25px;
+		padding: 6px;
 		z-index: 3;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		&:hover {
+			background-color: $themeColor;
+			color: white;
+		}
 	}
 }
 

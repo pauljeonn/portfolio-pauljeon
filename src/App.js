@@ -3,9 +3,9 @@ import './app.scss';
 import Intro from './components/intro/Intro';
 import About from './components/about/About';
 import Portfolio from './components/portfolio/Portfolio';
-import Contact from './components/contact/Contact';
 import Toggle from './components/toggle/Toggle';
 import Top from './components/top/Top';
+import Footer from './components/footer/Footer';
 import { ThemeContext } from './context';
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
 			<Intro />
 			<About />
 			<Portfolio />
-			<Contact />
+			<Footer />
 		</div>
 	);
 }

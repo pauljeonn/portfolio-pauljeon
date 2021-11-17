@@ -7,18 +7,20 @@ const Portfolio = () => {
 	return (
 		<div>
 			<div className="portfolio">
-				<div className="portfolio-text">
-					<h1 className="portfolio-title">PROJECTS</h1>
-					<p className="portfolio-desc"></p>
-				</div>
+				<div className="portfolio-title">PROJECTS</div>
 				<div className="portfolio-list">
 					{products.map((item) => (
 						<Product
 							key={item.id}
 							img={item.img}
 							link={item.link}
-							descTitle={item.descTitle}
-							descText={item.descText}
+							title={item.title}
+							team={item.team}
+							desc={item.desc}
+							stack={item.stack}
+							deploy={item.deploy}
+							github={item.github}
+							domain={item.domain}
 						/>
 					))}
 				</div>

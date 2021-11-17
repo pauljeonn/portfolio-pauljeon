@@ -1,7 +1,7 @@
 import React from 'react';
 import './intro.scss';
 import Paul from '../../images/memoji.png';
-import { FaChevronDown } from 'react-icons/fa';
+import { FiChevronDown } from 'react-icons/fi';
 
 const Intro = () => {
 	return (
@@ -13,10 +13,8 @@ const Intro = () => {
 					<div className="intro-title">
 						<div className="intro-title-wrapper">
 							<div className="intro-title-item">Frontend Developer</div>
-							<div className="intro-title-item">App Developer</div>
+							<div className="intro-title-item">Web Developer</div>
 							<div className="intro-title-item">UI/UX Designer</div>
-							<div className="intro-title-item">Content Creator</div>
-							<div className="intro-title-item">EPL Fan</div>
 						</div>
 					</div>
 					<div className="intro-desc">
@@ -29,9 +27,12 @@ const Intro = () => {
 				<div className="intro-bg"></div>
 				<img className="intro-img" src={Paul} alt="" />
 			</div>
-			<div className="icon-down">
-				<FaChevronDown />
-			</div>
+			<a href="#about">
+				<div className="scroll-down">
+					<div className="scroll-down-text">더 알아보기</div>
+					<div className="scroll-down-icon">{/* <FiChevronDown /> */}</div>
+				</div>
+			</a>
 		</div>
 	);
 };
