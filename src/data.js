@@ -3,12 +3,12 @@ export const products = [
 		id: 1,
 		img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-pauljeon.appspot.com/o/apple.png?alt=media&token=b14cd0a8-9a3c-470b-9048-edfcf334ae58',
 		link: 'https://www.apple.com',
-		title: 'E-commerce App',
+		title: 'E-Commerce App',
 		team: '개인 프로젝트',
-		desc: 'test',
+		desc: 'MERN 스택을 사용하여 온라인 쇼핑몰 웹사이트를 제작하였습니다.',
 		stack: 'React, Redux, Node.js, Express, MongoDB',
 		deploy: 'Firebase',
-		github: 'test',
+		github: 'https://github.com/pauljeonn/react-ecommerce',
 		domain: 'abc.com',
 	},
 	{
@@ -24,6 +24,7 @@ export const products = [
 		img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-pauljeon.appspot.com/o/samsung.png?alt=media&token=1637878b-2532-4094-a4ac-4c08d520e541',
 		link: 'https://www.samsung.com/us/',
 		title: 'My Portfolio',
+		team: '개인 프로젝트',
 		desc: '◯ test',
 	},
 	{
@@ -31,6 +32,7 @@ export const products = [
 		img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-pauljeon.appspot.com/o/samsung.png?alt=media&token=1637878b-2532-4094-a4ac-4c08d520e541',
 		link: 'https://www.samsung.com/us/',
 		title: 'Face Detector',
+		team: '개인 프로젝트',
 		desc: 'test',
 	},
 	{
@@ -38,6 +40,7 @@ export const products = [
 		img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-pauljeon.appspot.com/o/samsung.png?alt=media&token=1637878b-2532-4094-a4ac-4c08d520e541',
 		link: 'https://www.samsung.com/us/',
 		title: 'Weather App',
+		team: '개인 프로젝트',
 		desc: '프레임워크를 사용하지않고 HTML, CSS, 자바스크립트만 사용해서 구현하였습니다.',
 	},
 ];

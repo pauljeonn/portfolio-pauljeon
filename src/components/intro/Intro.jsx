@@ -1,11 +1,10 @@
 import React from 'react';
 import './intro.scss';
 import Paul from '../../images/memoji.png';
-import { FiChevronDown } from 'react-icons/fi';
 
 const Intro = () => {
 	return (
-		<div className="intro">
+		<div className="intro" id="intro">
 			<div className="intro-left">
 				<div className="intro-left-wrapper">
 					<h2 className="intro-greeting">Hello, my name is </h2>
@@ -14,12 +13,14 @@ const Intro = () => {
 						<div className="intro-title-wrapper">
 							<div className="intro-title-item">Frontend Developer</div>
 							<div className="intro-title-item">Web Developer</div>
-							<div className="intro-title-item">UI/UX Designer</div>
+							<div className="intro-title-item">UI/UX Enthusiast</div>
 						</div>
 					</div>
 					<div className="intro-desc">
-						안녕하세요 저는 배움과 성장을 사랑하고 추구하는 개발자 전바울
-						입니다.
+						안녕하세요. <br />
+						학습을 즐기며 성장을 추구하는 프론트엔드 개발자 전바울 입니다.{' '}
+						<br />
+						많은 사람들에게 도움을 주는 서비스를 만드는데 기여하고 싶습니다.
 					</div>
 				</div>
 			</div>
@@ -30,7 +31,6 @@ const Intro = () => {
 			<a href="#about">
 				<div className="scroll-down">
 					<div className="scroll-down-text">더 알아보기</div>
-					<div className="scroll-down-icon">{/* <FiChevronDown /> */}</div>
 				</div>
 			</a>
 		</div>

@@ -5,7 +5,8 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 5%;
+	padding-top: 2%;
+	position: relative;
 
 	.about-title {
 		font-size: 50px;
@@ -53,7 +54,33 @@
 			flex: 1;
 			display: flex;
 			flex-direction: column;
-			margin-top: 40px;
+			margin-top: 3%;
+
+			.about-desc {
+				margin-top: 3%;
+			}
+		}
+	}
+
+	.scroll-down {
+		position: absolute;
+		bottom: 7%;
+		left: 46%;
+		font-size: 14px;
+		font-weight: 500;
+		color: $themeColor;
+		border: 2px solid $themeColor;
+		border-radius: 25px;
+		padding: 8px;
+		z-index: 3;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		&:hover {
+			background-color: $themeColor;
+			color: white;
 		}
 	}
 }

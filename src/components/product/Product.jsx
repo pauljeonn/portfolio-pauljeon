@@ -15,6 +15,7 @@ const Product = ({
 	return (
 		<div className="product">
 			<div className="product-title">{title}</div>
+			{/* <div className="product-title-underline"></div> */}
 			<div className="product-wrapper">
 				<div className="product-left">
 					<div className="product-browser">

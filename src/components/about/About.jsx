@@ -15,7 +15,7 @@ const About = () => {
 				</div>
 				<div className="about-right">
 					<div className="about-desc">
-						<p>안녕하세요, 프론트엔드 개발자 전바울 입니다.</p>
+						<p>안녕하세요. 프론트엔드 개발자 전바울 입니다.</p>
 						<p>끊임없이 배우며 성장하는 개발자가 되기를 원합니다.</p>
 						<p>새로운 도전을 마다하지 않겠습니다.</p>
 						<p>혼자서만 돋보이려고 하기보다는</p>
@@ -23,7 +23,15 @@ const About = () => {
 						<p>멋진 팀플레이어가 되도록 노력하겠습니다.</p>
 					</div>
 				</div>
+				<div className="about-tech">
+					<div className="about-tech-item"></div>
+				</div>
 			</div>
+			<a href="#portfolio">
+				<div className="scroll-down">
+					<div className="scroll-down-text">프로젝트 둘러보기</div>
+				</div>
+			</a>
 		</div>
 	);
 };

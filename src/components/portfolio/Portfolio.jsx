@@ -6,7 +6,7 @@ import { products } from '../../data';
 const Portfolio = () => {
 	return (
 		<div>
-			<div className="portfolio">
+			<div className="portfolio" id="portfolio">
 				<div className="portfolio-title">PROJECTS</div>
 				<div className="portfolio-list">
 					{products.map((item) => (
