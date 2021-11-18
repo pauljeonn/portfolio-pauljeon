@@ -7,10 +7,10 @@ const Product = ({
 	title,
 	team,
 	desc,
-	stack,
+	front,
+	back,
 	deploy,
 	github,
-	domain,
 }) => {
 	return (
 		<div className="product">
@@ -24,32 +24,67 @@ const Product = ({
 							<div className="product-browser-circle"></div>
 							<div className="product-browser-circle"></div>
 						</div>
-						<a href={link} target="_blank" rel="noreferrer">
-							<img className="product-img" src={img} alt="" />
-						</a>
+						<div className="product-browser-screen">
+							<a href={link} target="_blank" rel="noreferrer">
+								<img className="product-img" src={img} alt="" />
+							</a>
+						</div>
 					</div>
-					<div className="product-pages">{`< 1/5 >`}</div>
+					{/* <div className="product-pages"></div> */}
 				</div>
 				<div className="product-right">
 					<div className="product-desc">
 						<div className="product-item">
-							{' '}
-							<span className="bullet">•</span> {team}
+							<div className="product-item-title">
+								<span className="bullet">•</span> 소개:
+							</div>
+							<div className="product-item-text">{desc}</div>
 						</div>
 						<div className="product-item">
-							<span className="bullet">•</span> 소개: {desc}
+							<div className="product-item-title">
+								<span className="bullet">•</span> Team:
+							</div>
+							<div className="product-item-text">{team}</div>
 						</div>
 						<div className="product-item">
-							<span className="bullet">•</span> 사용 스택: {stack}
+							<div className="product-item-title">
+								<span className="bullet">•</span> Front-end:
+							</div>
+							<div className="product-item-text">{front}</div>
 						</div>
 						<div className="product-item">
-							<span className="bullet">•</span> Deployment: {deploy}
+							<div className="product-item-title">
+								<span className="bullet">•</span> Back-end:
+							</div>
+							<div className="product-item-text">{back}</div>
 						</div>
 						<div className="product-item">
-							<span className="bullet">•</span> GitHub: {github}
+							<div className="product-item-title">
+								<span className="bullet">•</span> Deployment:
+							</div>
+							<div className="product-item-text">{deploy}</div>
 						</div>
 						<div className="product-item">
-							<span className="bullet">•</span> 도메인: {domain}
+							<div className="product-item-title">
+								<span className="bullet">•</span> GitHub:
+							</div>
+							<div className="product-item-text">
+								{' '}
+								<a href={github} target="_blank" rel="noreferrer">
+									{github}
+								</a>
+							</div>
+						</div>
+						<div className="product-item">
+							<div className="product-item-title">
+								<span className="bullet">•</span> 도메인:
+							</div>
+							<div className="product-item-text">
+								{' '}
+								<a href={link} target="_blank" rel="noreferrer">
+									{link}
+								</a>
+							</div>
 						</div>
 					</div>
 				</div>

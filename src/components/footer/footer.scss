@@ -10,8 +10,8 @@
 	margin-top: 2%;
 
 	.footer-quote {
-		font-size: 30px;
-		font-weight: 500;
+		font-size: 28px;
+		font-weight: 400;
 		color: $themeColor;
 		margin-bottom: 5%;
 		padding: 3%;
@@ -33,6 +33,7 @@
 			justify-content: center;
 			align-items: end;
 			margin-right: 6%;
+			padding-top: 1%;
 			text-align: right;
 
 			a {
@@ -43,7 +44,7 @@
 
 			.footer-link {
 				font-size: 20px;
-				font-weight: 300;
+				font-weight: 400;
 				color: black;
 				margin-bottom: 2%;
 
@@ -61,7 +62,7 @@
 			margin-left: 3%;
 
 			.footer-info {
-				font-size: 20px;
+				font-size: 19px;
 				font-weight: 300;
 				color: black;
 
@@ -91,10 +92,11 @@
 	.footer-copyright {
 		width: 100%;
 		background-color: $themeColor;
+		color: white;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		padding-top: 1%;
+		padding-top: 2%;
 		padding-bottom: 2%;
 		box-sizing: border-box;
 		font-weight: 400;

@@ -17,10 +17,10 @@ const Portfolio = () => {
 							title={item.title}
 							team={item.team}
 							desc={item.desc}
-							stack={item.stack}
+							front={item.front}
+							back={item.back}
 							deploy={item.deploy}
 							github={item.github}
-							domain={item.domain}
 						/>
 					))}
 				</div>
