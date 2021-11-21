@@ -42,7 +42,7 @@ const Product = ({
 						</div>
 						<div className="product-item">
 							<div className="product-item-title">
-								<span className="bullet">•</span> Team:
+								<span className="bullet">•</span> Member:
 							</div>
 							<div className="product-item-text">{team}</div>
 						</div>
@@ -52,12 +52,14 @@ const Product = ({
 							</div>
 							<div className="product-item-text">{front}</div>
 						</div>
-						<div className="product-item">
-							<div className="product-item-title">
-								<span className="bullet">•</span> Back-end:
+						{back && (
+							<div className="product-item">
+								<div className="product-item-title">
+									<span className="bullet">•</span> Back-end:
+								</div>
+								<div className="product-item-text">{back}</div>
 							</div>
-							<div className="product-item-text">{back}</div>
-						</div>
+						)}
 						<div className="product-item">
 							<div className="product-item-title">
 								<span className="bullet">•</span> Deployment:

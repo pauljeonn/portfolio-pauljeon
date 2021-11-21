@@ -5,68 +5,100 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-top: 2%;
+	padding-top: 15px;
 	position: relative;
 	overflow-y: hidden;
 
 	.about-title {
+		width: 100%;
+		height: 10%;
 		font-size: 50px;
 		font-weight: 900;
 		color: $themeColor;
+		text-align: center;
+	}
+
+	.about-bg {
+		clip-path: polygon(60% 0, 100% 0%, 40% 100%, 0% 100%);
+		width: 55%;
+		height: 100%;
+		position: absolute;
+		top: 85px;
+		left: -15%;
+		background-color: $themeColor;
 	}
 
 	.about-wrapper {
 		width: 100%;
-		height: 100%;
+		height: 70%;
 		display: flex;
+		justify-content: center;
+		align-items: center;
 
-		.about-left {
-			flex: 1;
+		.about-content {
+			width: 90%;
 			height: 100%;
-			position: relative;
-
-			.about-card {
-				width: 45%;
-				height: 45%;
-				position: absolute;
-				top: 10%;
-				left: 40%;
-				z-index: 2;
-
-				.about-card-img {
-					width: 100%;
-					// border: 2px solid $themeColor;
-					border-radius: 10%;
-				}
-			}
-
-			.about-card-shadow {
-				clip-path: polygon(60% 0, 100% 0%, 40% 100%, 0% 100%);
-				width: 80%;
-				height: 100%;
-				position: absolute;
-				top: 0;
-				left: 0;
-				background-color: $themeColor;
-			}
-		}
-
-		.about-right {
-			flex: 1;
 			display: flex;
-			flex-direction: column;
-			margin-top: 3%;
+			justify-content: center;
+			align-items: center;
+			z-index: 3;
 
 			.about-desc {
-				margin-top: 3%;
+				width: 75%;
+				margin-top: 2%;
+				border-radius: 20px;
+				box-shadow: 5px 5px $themeColor;
+				background-color: white;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				padding-top: 40px;
+				padding-bottom: 20px;
+				box-sizing: border-box;
+				line-height: 1.5;
+
+				.about-decision {
+					margin-top: 10px;
+					border: 1px solid $themeColor;
+					line-height: 1.8;
+					padding: 20px;
+				}
+
+				.about-button-container {
+					display: flex;
+					justify-content: center;
+					padding: 20px;
+
+					.about-button {
+						height: 30px;
+						width: 150px;
+						border: 1px solid black;
+						background-color: $themeColor;
+						color: white;
+						margin-left: 10px;
+						font-size: 16px;
+
+						&:hover {
+							background-color: white;
+							color: $themeColor;
+						}
+					}
+				}
+
+				p {
+					font-size: 18px;
+					font-weight: 350;
+				}
 			}
 		}
 	}
 
 	.scroll-down {
 		position: absolute;
-		bottom: 7%;
-		left: 46%;
+		bottom: 5%;
+		left: 50%;
+		transform: translateX(-50%);
 		font-size: 14px;
 		font-weight: 500;
 		color: $themeColor;

@@ -80,7 +80,7 @@
 		}
 
 		.intro-img {
-			width: 60%;
+			width: 55%;
 			// border-radius: 50%;
 			z-index: 2;
 		}
@@ -89,7 +89,8 @@
 	.scroll-down {
 		position: absolute;
 		bottom: 3%;
-		left: 46%;
+		left: 50%;
+		transform: translateX(-50%);
 		font-size: 14px;
 		font-weight: 500;
 		color: $themeColor;
