@@ -9,7 +9,7 @@
 		flex: 1;
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		justify-content: end;
 
 		.intro-left-wrapper {
 			padding: 50px;
@@ -51,6 +51,7 @@
 			}
 
 			.intro-desc {
+				font-size: 20px;
 				padding-top: 30px;
 			}
 		}
@@ -61,9 +62,9 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		align-items: center;
 		overflow-x: hidden;
 		position: relative;
+		padding-left: 100px;
 
 		.intro-bg {
 			clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
@@ -83,10 +84,10 @@
 
 	.scroll-down {
 		position: absolute;
-		bottom: 3%;
 		left: 50%;
+		bottom: 5%;
 		transform: translateX(-50%);
-		font-size: 14px;
+		font-size: 18px;
 		font-weight: 500;
 		color: $themeColor;
 		border: 2px solid $themeColor;
@@ -110,6 +111,8 @@
 		flex-direction: column;
 
 		.intro-left {
+			justify-content: center;
+
 			.intro-left-wrapper {
 				.intro-name {
 					font-size: 42px;
@@ -124,12 +127,15 @@
 				}
 
 				.intro-desc {
+					font-size: 14px;
 					width: 220px;
 				}
 			}
 		}
 
 		.intro-right {
+			align-items: center;
+
 			.intro-bg {
 			}
 
