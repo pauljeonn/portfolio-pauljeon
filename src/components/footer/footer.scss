@@ -105,8 +105,60 @@
 
 @media screen and (max-width: 480px) {
 	.footer {
-		.footer-bg {
-			width: 300%;
+		.footer-quote {
+			font-size: 18px;
+			line-height: 2;
+		}
+
+		.footer-wrapper {
+			padding: 20px;
+			box-sizing: border-box;
+
+			.footer-left {
+				margin-right: 10px;
+
+				a {
+				}
+
+				.footer-link {
+					font-size: 16px;
+					font-weight: 400;
+					color: white;
+					margin-bottom: 2px;
+
+					&:hover {
+						color: white;
+					}
+				}
+			}
+
+			.footer-right {
+				margin-left: 10px;
+
+				.footer-info {
+					font-size: 14px;
+
+					.footer-item {
+						.footer-icon {
+						}
+
+						a {
+							text-decoration: none;
+							color: black;
+							z-index: 3;
+
+							&:hover {
+								color: white;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.footer-copyright {
+			font-size: 12px;
+			padding-bottom: 30px;
 		}
 	}
 }

@@ -7,19 +7,11 @@ import Eng from '../../pdfs/cv-eng.pdf';
 const About = () => {
 	return (
 		<div className="about" id="about">
-			<div className="about-title">ABOUT ME</div>
 			<div className="about-bg"></div>
 			<div className="about-wrapper">
+				<div className="about-title">ABOUT ME</div>
 				<div className="about-content">
 					<div className="about-desc">
-						<p>
-							안녕하세요. 프론트엔드 개발자로서 첫발을 내딛는 전바울 입니다.
-						</p>
-						<p>
-							저는 SAP 분야로 일을 시작하였지만 프론트엔드 업무에 적성을 강하게
-							느껴서 전향하였습니다.
-						</p>
-						<br />
 						<p>제가 프론트엔드 개발자로 임하는 각오를 말씀드리고 싶습니다.</p>
 						<div className="about-decision">
 							<p>
@@ -34,7 +26,6 @@ const About = () => {
 								<b>주도적인 학습</b>을 멈추지 않겠습니다.
 							</p>
 						</div>
-						<br />
 						<br />
 						<p>
 							혹시 저에 대해 더 자세히 알고싶으시다면 자기소개서를, 이력서를

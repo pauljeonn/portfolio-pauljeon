@@ -71,7 +71,6 @@ const Product = ({
 								<span className="bullet">•</span> GitHub:
 							</div>
 							<div className="product-item-text">
-								{' '}
 								<a href={github} target="_blank" rel="noreferrer">
 									{github}
 								</a>
@@ -82,7 +81,6 @@ const Product = ({
 								<span className="bullet">•</span> 도메인:
 							</div>
 							<div className="product-item-text">
-								{' '}
 								<a href={link} target="_blank" rel="noreferrer">
 									{link}
 								</a>

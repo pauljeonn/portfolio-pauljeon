@@ -7,7 +7,6 @@ const Intro = () => {
 		<div className="intro" id="intro">
 			<div className="intro-left">
 				<div className="intro-left-wrapper">
-					<h2 className="intro-greeting">Hello, my name is </h2>
 					<h1 className="intro-name">Paul Jeon</h1>
 					<div className="intro-title">
 						<div className="intro-title-wrapper">
@@ -19,8 +18,6 @@ const Intro = () => {
 					<div className="intro-desc">
 						안녕하세요. <br />
 						배움을 즐기며 성장을 추구하는 프론트엔드 개발자 전바울 입니다.
-						<br />
-						많은 사람들에게 도움을 주는 서비스를 만드는 일에 기여하고 싶습니다.
 					</div>
 				</div>
 			</div>
