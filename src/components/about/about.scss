@@ -82,7 +82,7 @@
 						box-shadow: 3px 3px lightgrey;
 						background-color: $themeColor;
 						color: white;
-						margin-left: 10px;
+						margin-left: 20px;
 						font-size: 16px;
 
 						&:hover {
@@ -110,7 +110,7 @@
 		color: $themeColor;
 		border: 2px solid $themeColor;
 		border-radius: 25px;
-		padding: 8px;
+		padding: 9px;
 		z-index: 3;
 		cursor: pointer;
 		display: flex;

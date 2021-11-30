@@ -17,7 +17,7 @@ const Intro = () => {
 					</div>
 					<div className="intro-desc">
 						<p>안녕하세요.</p>
-						<p>배움을 즐기며 성장을 추구하는 </p>
+						<p>더 좋은 디자인을 고민하는 </p>
 						<p>프론트엔드 개발자 전바울 입니다.</p>
 					</div>
 				</div>

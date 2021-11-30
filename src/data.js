@@ -11,6 +11,17 @@ export const products = [
 		deploy: 'Heroku',
 		github: 'https://github.com/pauljeonn/react-ecommerce',
 	},
+	{
+		id: 2,
+		img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-pauljeon.appspot.com/o/covid-1.png?alt=media&token=13044dbd-e989-426d-b95d-26c629aa3c70',
+		link: 'https://react-covid-app-cccc4.web.app/',
+		title: 'COVID-19 App',
+		team: '개인 프로젝트',
+		desc: '매일 업데이트되는 코로나 세계 각국 현황을 API 연동을 통해 한 눈에 차트로 비교해 볼 수 있는 웹사이트입니다. 타입스크립트 기반으로 진행하였으며 Emotion을 사용하여 styled-components 문법으로 스타일링 하였습니다. Chart.js 라이브러리를 통해 Bar Chart를 생성하여 데이터를 시각화 하였습니다.',
+		front: 'React(TypeScript), Emotion, Chart.js',
+		deploy: 'Firebase',
+		github: 'https://github.com/pauljeonn/react-covid-app',
+	},
 	// {
 	// 	id: 2,
 	// 	img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-pauljeon.appspot.com/o/nike.png?alt=media&token=13f2587a-202d-4307-b2fb-ce0295d8f6cf',
@@ -25,7 +36,7 @@ export const products = [
 	// },
 	{
 		id: 3,
-		img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-pauljeon.appspot.com/o/portfolio-1.png?alt=media&token=6d8fcf5c-c2fe-4aea-92f4-c4dcb312e2ba',
+		img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-pauljeon.appspot.com/o/portfolio-1.png?alt=media&token=cf4fe777-27b4-465d-8d25-0d35df3718b7',
 		link: 'https://portfolio-pauljeon.web.app',
 		title: 'Portfolio Website',
 		team: '개인 프로젝트',

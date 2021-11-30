@@ -40,12 +40,12 @@ const Product = ({
 							</div>
 							<div className="product-item-text">{desc}</div>
 						</div>
-						<div className="product-item">
+						{/* <div className="product-item">
 							<div className="product-item-title">
 								<span className="bullet">•</span> Member:
 							</div>
 							<div className="product-item-text">{team}</div>
-						</div>
+						</div> */}
 						<div className="product-item">
 							<div className="product-item-title">
 								<span className="bullet">•</span> Front-end:

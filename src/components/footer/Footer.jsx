@@ -34,7 +34,7 @@ const footer = () => {
 							<div className="footer-icon">
 								<VscDeviceMobile />
 							</div>
-							010-7107-914
+							010-7107-9145
 						</div>
 						<div className="footer-item">
 							<div className="footer-icon">
