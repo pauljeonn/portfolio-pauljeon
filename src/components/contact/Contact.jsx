@@ -8,13 +8,13 @@ const Contact = () => {
 	return (
 		<div className="contact">
 			<div className="contact-title">CONTACT</div>
-			<div className="contact-bg">
+			<div className="contact-container">
 				<div className="contact-info">
 					<div className="contact-item">
 						<div className="contact-icon">
 							<VscDeviceMobile />
 						</div>
-						010-7107-914
+						010-7107-9145
 					</div>
 					<div className="contact-item">
 						<div className="contact-icon">
@@ -35,6 +35,7 @@ const Contact = () => {
 						</a>
 					</div>
 				</div>
+				<div className="contact-thanks">THANKS FOR VISITING</div>
 			</div>
 		</div>
 	);

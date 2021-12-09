@@ -1,201 +1,91 @@
 @import '../../global.scss';
 
 .about {
-	height: 100vh;
+	width: 100%;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding-top: 15px;
-	box-sizing: border-box;
-	position: relative;
-	overflow-y: hidden;
 
-	.about-bg {
-		clip-path: polygon(60% 0, 100% 0%, 40% 100%, 0% 100%);
-		width: 60%;
-		height: 100%;
-		position: absolute;
-		top: 80px;
-		left: -20%;
-		background-color: $themeColor;
-		z-index: 1;
-	}
-
-	.about-wrapper {
+	.about-outer {
 		width: 100%;
-		height: 100%;
 		display: flex;
-		flex-direction: column;
-		align-items: center;
+		justify-content: center;
 
-		.about-title {
-			width: 100%;
-			height: 50px;
-			font-size: 50px;
-			font-weight: 900;
-			color: $themeColor;
-			text-align: center;
-		}
-
-		.about-content {
-			width: 80%;
-			height: 100%;
+		.about-inner {
+			width: 90%;
+			max-width: 1000px;
+			background-color: white;
 			display: flex;
-			justify-content: center;
+			flex-direction: column;
 			align-items: center;
-			margin-bottom: 5%;
+			z-index: 3;
 
-			.about-desc {
-				width: 800px;
-				border-radius: 20px;
-				box-shadow: 5px 5px $themeColor;
-				background-color: white;
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
+			.about-title {
+				font-size: 45px;
+				font-weight: 600;
+				color: $themeColor;
+				padding: 20px;
+			}
+
+			.about-part {
+				width: 100%;
+				border: 1px solid $themeColor;
+				font-size: 18px;
+				font-weight: 300;
+				line-height: 2;
+				margin: 0 0 40px 0;
 				padding: 30px;
 				box-sizing: border-box;
-				line-height: 1.5;
-				z-index: 3;
+				box-shadow: -10px 0 $subColor;
 
-				.about-decision {
-					margin-top: 10px;
-					border: 1px solid $themeColor;
-					line-height: 2.5;
-					padding: 15px 20px;
-
-					hr {
-						border-top: 1px solid $themeColor;
-					}
+				h1 {
+					color: $subColor;
+					margin-bottom: 20px;
+					font-size: 30px;
+					font-weight: 500;
 				}
 
-				.about-button-container {
-					display: flex;
-					justify-content: center;
-					padding: 20px;
+				&.two {
+					margin: 0 0 30px 0;
+					box-shadow: 10px 0 $subColor;
 
-					.about-button {
-						height: 30px;
-						width: 150px;
-						border: 1px solid black;
-						box-shadow: 3px 3px lightgrey;
-						background-color: $themeColor;
-						color: white;
-						margin-left: 20px;
-						font-size: 16px;
+					.about-icon-container {
+						display: flex;
+						justify-content: space-around;
 
-						&:hover {
-							background-color: white;
+						.about-icon {
+							margin: 5px;
+							font-size: 30px;
 							color: $themeColor;
 						}
 					}
 				}
-
-				p {
-					font-size: 18px;
-					font-weight: 350;
-				}
 			}
-		}
-	}
-
-	.scroll-down {
-		position: absolute;
-		left: 50%;
-		bottom: 5%;
-		transform: translateX(-50%);
-		font-size: 18px;
-		font-weight: 500;
-		color: $themeColor;
-		border: 2px solid $themeColor;
-		border-radius: 25px;
-		padding: 9px;
-		z-index: 3;
-		cursor: pointer;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-
-		&:hover {
-			background-color: $themeColor;
-			color: white;
 		}
 	}
 }
 
 @media screen and (max-width: 480px) {
 	.about {
-		padding: 0;
+		.about-outer {
+			.about-inner {
+				.about-title {
+				}
 
-		.about-bg {
-			width: 150%;
-			left: -50%;
-			top: 60px;
-		}
-
-		.about-wrapper {
-			padding-top: 10px;
-			width: 360px;
-			display: flex;
-			flex-direction: column;
-
-			.about-title {
-				width: 100%;
-				height: 40px;
-				font-size: 30px;
-			}
-
-			.about-content {
-				width: 100%;
-				height: 90%;
-				display: flex;
-				align-items: center;
-
-				.about-desc {
-					padding: 10% 5%;
-					.about-decision {
-						line-height: 1.5;
-						padding: 10px;
-
-						hr {
-							margin: 5px 0;
-						}
+				.about-part {
+					h1 {
 					}
 
-					.about-button-container {
-						display: flex;
-						flex-direction: column;
+					&.two {
+						.about-icon-container {
+							display: flex;
+							flex-wrap: wrap;
+							justify-content: space-around;
 
-						.about-button {
-							height: 25px;
-							font-size: 12px;
-							margin-top: 5px;
-
-							&:hover {
-								background-color: $themeColor;
-								color: white;
+							.about-icon {
+								font-size: 25px;
 							}
 						}
 					}
-
-					p {
-						font-size: 11px;
-					}
 				}
-			}
-		}
-
-		.scroll-down {
-			background-color: $themeColor;
-			color: white;
-			bottom: 3%;
-			border: none;
-			z-index: 5;
-
-			&:hover {
-				background-color: $themeColor;
-				color: white;
 			}
 		}
 	}

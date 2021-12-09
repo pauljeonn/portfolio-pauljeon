@@ -1,12 +1,19 @@
 import React from 'react';
+import Particle from '../particle/Particle';
 import './intro.scss';
-import Paul from '../../images/memoji.png';
 
 const Intro = () => {
 	return (
 		<div className="intro" id="intro">
-			<div className="intro-left">
-				<div className="intro-left-wrapper">
+			<div className="intro-outer">
+				{/* <Particle className="particle" /> */}
+				<div className="intro-inner">
+					{/* <Particle className="particle" /> */}
+					<div className="intro-bar">
+						<div className="intro-circle"></div>
+						<div className="intro-circle"></div>
+						<div className="intro-circle"></div>
+					</div>
 					<h1 className="intro-name">Paul Jeon</h1>
 					<div className="intro-title">
 						<div className="intro-title-wrapper">
@@ -17,20 +24,15 @@ const Intro = () => {
 					</div>
 					<div className="intro-desc">
 						<p>안녕하세요.</p>
-						<p>더 좋은 디자인을 고민하는 </p>
 						<p>프론트엔드 개발자 전바울 입니다.</p>
 					</div>
+					<a className="scroll-down-link" href="#about">
+						<div className="scroll-down">
+							<p>더 알아보기</p>
+						</div>
+					</a>
 				</div>
 			</div>
-			<div className="intro-right">
-				<div className="intro-bg"></div>
-				<img className="intro-img" src={Paul} alt="" />
-			</div>
-			<a href="#about">
-				<div className="scroll-down">
-					<div className="scroll-down-text">더 알아보기</div>
-				</div>
-			</a>
 		</div>
 	);
 };

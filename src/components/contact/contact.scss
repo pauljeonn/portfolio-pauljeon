@@ -1,55 +1,63 @@
 @import '../../global.scss';
 
 .contact {
-	height: 100vh;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
-	position: relative;
+	margin-bottom: 60px;
 
 	.contact-title {
-		font-size: 40px;
-		font-weight: 700;
-		position: absolute;
-		top: 5%;
+		font-size: 45px;
+		font-weight: 600;
+		color: $themeColor;
+		padding: 20px;
 	}
 
-	.contact-bg {
-		clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
-		background-color: $themeColor;
-		width: 200%;
-		height: 70%;
-		position: absolute;
-		bottom: 0;
+	.contact-container {
+		width: 1000px;
+		height: 500px;
+		border: 1px solid $subColor;
 		display: flex;
-		// flex-direction: column;
-		// align-items: center;
+		flex-direction: column;
+		align-items: center;
 		justify-content: center;
-		padding-top: 60px;
+		position: relative;
+		overflow-y: hidden;
 
 		.contact-info {
+			width: 260px;
 			font-size: 20px;
 			font-weight: 300;
 			color: black;
 
 			.contact-item {
 				display: flex;
-				justify-content: center;
-				align-items: center;
-				margin: 25px;
+				margin: 10px;
 
 				.contact-icon {
 					margin-right: 10px;
 					margin-top: 5px;
+					color: $themeColor;
 				}
 
 				a {
 					text-decoration: none;
 					color: black;
 					z-index: 3;
+
+					&:hover {
+						color: $themeColor;
+					}
 				}
 			}
+		}
+
+		.contact-thanks {
+			font-size: 45px;
+			color: $subColor;
+			position: absolute;
+			bottom: -15px;
 		}
 	}
 }
