@@ -6,8 +6,13 @@ import { VscGithub } from 'react-icons/vsc';
 
 const Contact = () => {
 	return (
-		<div className="contact">
-			<div className="contact-title">CONTACT</div>
+		<div className="contact" id="contact">
+			<a href="#contact" style={{ textDecoration: 'none' }}>
+				<div className="contact-title">
+					<span className="underscore">&lt; </span>CONTACT
+					<span className="underscore"> /&gt;</span>
+				</div>
+			</a>
 			<div className="contact-container">
 				<div className="contact-info">
 					<div className="contact-item">

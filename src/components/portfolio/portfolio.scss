@@ -1,6 +1,7 @@
 @import '../../global.scss';
 
 .portfolio {
+	margin-top: 60px;
 	width: 100%;
 	display: flex;
 
@@ -20,10 +21,21 @@
 			z-index: 3;
 
 			.portfolio-title {
-				font-size: 45px;
+				font-size: 48px;
 				font-weight: 600;
 				color: $themeColor;
 				padding: 20px;
+				margin-bottom: 10px;
+
+				&:hover {
+					color: $subColor;
+				}
+
+				.underscore {
+					color: $subColor;
+					font-size: 35px;
+					font-family: 'Open Sans', sans-serif;
+				}
 			}
 
 			.portfolio-list {

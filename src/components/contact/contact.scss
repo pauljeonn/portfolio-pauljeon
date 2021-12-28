@@ -8,10 +8,20 @@
 	margin-bottom: 60px;
 
 	.contact-title {
-		font-size: 45px;
+		font-size: 48px;
 		font-weight: 600;
 		color: $themeColor;
 		padding: 20px;
+
+		&:hover {
+			color: $subColor;
+		}
+
+		.underscore {
+			color: $subColor;
+			font-size: 35px;
+			font-family: 'Open Sans', sans-serif;
+		}
 	}
 
 	.contact-container {

@@ -23,7 +23,12 @@ const About = () => {
 		<div className="about" id="about">
 			<div className="about-outer">
 				<div className="about-inner">
-					<div className="about-title">ABOUT ME</div>
+					<a href="#about" style={{ textDecoration: 'none' }}>
+						<div className="about-title">
+							<span className="underscore">&lt; </span>ABOUT ME
+							<span className="underscore"> /&gt;</span>
+						</div>
+					</a>
 					<div className="about-part">
 						<h1>WHO AM I</h1>
 						<p>안녕하세요. 주니어 프론트엔드 개발자 전바울 입니다.</p>

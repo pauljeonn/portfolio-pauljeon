@@ -19,15 +19,26 @@
 			z-index: 3;
 
 			.about-title {
-				font-size: 45px;
+				font-size: 48px;
 				font-weight: 600;
 				color: $themeColor;
 				padding: 20px;
+				// text-decoration: underline $subColor;
+
+				&:hover {
+					color: $subColor;
+				}
+
+				.underscore {
+					color: $subColor;
+					font-size: 35px;
+					font-family: 'Open Sans', sans-serif;
+				}
 			}
 
 			.about-part {
 				width: 100%;
-				border: 1px solid $themeColor;
+				border: 1px solid $subColor;
 				font-size: 18px;
 				font-weight: 300;
 				line-height: 2;

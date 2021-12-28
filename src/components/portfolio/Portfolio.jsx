@@ -9,7 +9,12 @@ const Portfolio = () => {
 			<div className="portfolio" id="portfolio">
 				<div className="portfolio-outer">
 					<div className="portfolio-inner">
-						<div className="portfolio-title">PROJECTS</div>
+						<a href="#portfolio" style={{ textDecoration: 'none' }}>
+							<div className="portfolio-title">
+								<span className="underscore">&lt; </span>PROJECTS
+								<span className="underscore"> /&gt;</span>
+							</div>
+						</a>
 						<div className="portfolio-list">
 							{products.map((item) => (
 								<Product
