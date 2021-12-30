@@ -74,8 +74,34 @@
 
 @media screen and (max-width: 480px) {
 	.contact {
-		.contact-bg {
-			width: 300%;
+		.contact-title {
+			font-size: 32px;
+		}
+
+		.contact-container {
+			width: 90%;
+			height: 300px;
+
+			.contact-info {
+				width: 200px;
+				font-size: 16px;
+
+				.contact-item {
+					display: flex;
+					margin: 10px;
+
+					.contact-icon {
+						margin-right: 10px;
+						margin-top: 5px;
+						color: $themeColor;
+					}
+				}
+			}
+
+			.contact-thanks {
+				font-size: 22px;
+				bottom: -7px;
+			}
 		}
 	}
 }

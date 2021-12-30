@@ -10,16 +10,11 @@
 		display: flex;
 		justify-content: center;
 
-		.particle {
-			z-index: 2;
-			height: 100%;
-		}
-
 		.intro-inner {
 			width: 90%;
 			max-width: 1000px;
 			height: 70%;
-			max-height: 800px;
+			max-height: 700px;
 			margin: auto;
 			border: 1px solid $themeColor;
 			border-radius: 10px;
@@ -129,4 +124,54 @@
 }
 
 @media screen and (max-width: 480px) {
+	.intro {
+		display: flex;
+		align-items: center;
+
+		.intro-outer {
+			height: 70%;
+
+			.intro-inner {
+				padding-top: 10px;
+				height: 65%;
+
+				.intro-name {
+					font-size: 42px;
+				}
+
+				.intro-title {
+					height: 30px;
+
+					.intro-title-wrapper {
+						@keyframes move {
+							50% {
+								transform: translateY(-30px);
+							}
+							100% {
+								transform: translateY(-60px);
+							}
+						}
+
+						.intro-title-item {
+							height: 30px;
+							font-size: 18px;
+						}
+					}
+				}
+
+				.intro-desc {
+					font-size: 15px;
+					padding-top: 15px;
+				}
+
+				.scroll-down-link {
+					.scroll-down {
+						margin-top: 20px;
+						font-size: 12px;
+						padding: 6px;
+					}
+				}
+			}
+		}
+	}
 }

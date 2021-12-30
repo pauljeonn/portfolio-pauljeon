@@ -79,20 +79,32 @@
 		.about-outer {
 			.about-inner {
 				.about-title {
+					font-size: 32px;
 				}
 
 				.about-part {
+					line-height: 1.6;
+					font-size: 12px;
+					box-shadow: -2px 0 $subColor;
+
 					h1 {
+						margin-bottom: 15px;
+						font-size: 24px;
 					}
 
 					&.two {
+						margin: 0;
+						box-shadow: 2px 0 $subColor;
+
 						.about-icon-container {
+							width: 100%;
 							display: flex;
 							flex-wrap: wrap;
-							justify-content: space-around;
+							margin-bottom: 15px;
 
 							.about-icon {
-								font-size: 25px;
+								margin: 0 10px;
+								font-size: 18px;
 							}
 						}
 					}
