@@ -1,11 +1,11 @@
 export const products = [
 	{
 		id: 1,
-		img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-pauljeon.appspot.com/o/ecommerce-1.png?alt=media&token=5782cf9f-aacb-4c41-8326-adb9ab201dc9',
+		img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-pauljeon.appspot.com/o/ecommerce-newest.png?alt=media&token=d9638b91-3ab6-4047-bff4-b5c8ee80c8bb',
 		link: 'https://pauljeonn-ecommerce.herokuapp.com/',
 		title: 'LIEU (온라인쇼핑몰)',
 		team: '개인 프로젝트',
-		desc: 'MERN Stack을 사용하여 온라인 쇼핑몰 웹사이트를 제작하였습니다. Redux를 통해 전역 상태관리를 하였고, styled-components를 통해 컴포넌트들을 동적으로 자유롭게 스타일링 할 수 있었습니다. 백엔드 동작원리에 대해 많이 이해하게 되었으며 Node.js에서 MongoDB와 연동하여 서버를 구축하고 사용하는 법을 배웠습니다. 풀스택으로 앱이 작동하는 모든 과정을 체험해볼 수 있었습니다.',
+		desc: 'MERN Stack으로 제작한 온라인 쇼핑몰 웹사이트입니다. 클라이언트는 리액트로 구현했으며 Redux를 통해 전역 상태관리를 하였습니다. styled-components를 통해 컴포넌트들을 직관적이고 동적으로 스타일링 할 수 있었습니다. 백엔드 동작원리에 대해 이해도를 높이는 계기가 되었고 Node.js와 MongoDB를 연동하여 서버 및 데이터베이스를 구축하였습니다. 풀스택으로 앱이 작동하는 모든 과정을 체험해볼 수 있었습니다.',
 		tech: [
 			'React',
 			'Redux',
@@ -62,11 +62,11 @@ export const products = [
 	},
 	{
 		id: 5,
-		img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-pauljeon.appspot.com/o/todo-1.png?alt=media&token=7e03eb5f-edd0-41f7-bcb0-20ec3995b8c5',
-		link: 'https://todolist-41d4a.web.app',
-		title: 'Todo List App',
+		img: 'https://firebasestorage.googleapis.com/v0/b/portfolio-pauljeon.appspot.com/o/todo-1.png?alt=media&token=b28ca822-1d8b-40c5-b3eb-b915b6030913',
+		link: 'https://pauljeonn-todo.web.app/',
+		title: 'TooDoo (할 일 관리앱)',
 		team: '개인 프로젝트',
-		desc: 'React로 제작한 할일 관리 앱입니다. React Hooks와 Context API를 사용하여 리액트에서 상태관리하는 방법을 배울 수 있었습니다. 스타일링 측면에서는 Sass와 styled-components를 둘 다 사용해보며 각 css 전처리기의 특징 및 장단점을 비교해볼 수 있었습니다.',
+		desc: '오늘의 할 일을 작성하고 완료하도록 도와주는 Todo List App입니다.	리액트에서 제공하는 Context API를 활용하여 전역 상태 관리를 하였습니다. Sass와 styled-components를 모두 사용해보며 각 css 전처리기의 특징 및 장단점을 비교해볼 수 있었습니다.',
 		tech: ['React', 'Sass', 'styled-components', 'Firebase'],
 		front: 'React, Sass, styled-components',
 		deploy: 'Firebase',
