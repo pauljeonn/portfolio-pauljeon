@@ -31,6 +31,47 @@ const About = () => {
 					</a>
 					<div className="about-part">
 						<h1>WHO AM I</h1>
+						<div className="about-icon-container">
+							<div className="about-icon">
+								<SiHtml5 />
+							</div>
+							<div className="about-icon">
+								<SiCss3 />
+							</div>
+							<div className="about-icon">
+								<SiJavascript />
+							</div>
+							<div className="about-icon">
+								<SiTypescript />
+							</div>
+							<div className="about-icon">
+								<SiReact />
+							</div>
+							<div className="about-icon">
+								<FaVuejs />
+							</div>
+							<div className="about-icon">
+								<FaSass />
+							</div>
+							<div className="about-icon">
+								<SiStyledcomponents />
+							</div>
+							<div className="about-icon">
+								<SiGit />
+							</div>
+							<div className="about-icon">
+								<SiFirebase />
+							</div>
+							<div className="about-icon">
+								<SiMongodb />
+							</div>
+							<div className="about-icon">
+								<SiFigma />
+							</div>
+							<div className="about-icon">
+								<SiAdobexd />
+							</div>
+						</div>
 						<p>안녕하세요. 주니어 프론트엔드 개발자 전바울 입니다.</p>
 						<br />
 						<p>
@@ -65,6 +106,7 @@ const About = () => {
 							코드 한 줄을 작성하더라도 더 효율적인 방법은 없는지 늘
 							고민하겠습니다.
 						</p>
+						<br />
 						<p>
 							비즈니스 환경에서 가장 중요한 건 문제 해결 능력이라고 생각합니다.
 						</p>
@@ -73,15 +115,14 @@ const About = () => {
 							임하겠습니다.
 						</p>
 						<p>명확하게 소통하며 협업을 잘하는 팀플레이어가 되겠습니다.</p>
-						<p>프론트엔드는 디자인과 밀접하게 연결되어있습니다.</p>
 						<p>
-							더욱 즐거운 사용자경험을 제공하기 위하여 꾸준히 디자인 실력도
-							연마하여 최적의 UI/UX를 고민하며 개발하겠습니다.
+							더욱 즐거운 사용자경험을 제공하기 위하여 최적의 UI/UX를 고민하며
+							개발하겠습니다.
 						</p>
 						<br />
 						<p>감사합니다.</p>
 					</div>
-					<div className="about-part two">
+					{/* <div className="about-part two">
 						<h1>SKILLS</h1>
 
 						<div className="about-icon-container">
@@ -145,8 +186,8 @@ const About = () => {
 								RESTful API 구현을 할 수 있습니다.
 							</li>
 							<li>
-								Sass, styled-components, Emotion 등을 사용하여 직관적이고
-								효율적인 스타일링을 추구합니다.
+								Sass, styled-components 등을 사용하여 직관적이고 효율적인 반응형
+								디자인을 합니다.
 							</li>
 							<li>
 								Figma, Adobe XD 같은 디자인툴을 활용하여 UI 디자인,
@@ -167,7 +208,7 @@ const About = () => {
 							어제보다 오늘 더 훌륭한 개발자가 되기 위하여 빠르게 그리고 바르게
 							성장하는 개발자가 되겠습니다.
 						</p>
-					</div>
+					</div> */}
 				</div>
 			</div>
 		</div>
